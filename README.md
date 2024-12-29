@@ -84,7 +84,7 @@ Visualizations:
 
 Contributors
 	•	Mohammed Qalandar - Project Lead
-	•	Email: moqa-is@outlook.com
- 	•	Linked In: [LinkedIn](https://www.linkedin.com/in/mohammed-qalandar-shah-quazi-b59428259/)
+	•	[Email](moqa-is@outlook.com)
+ 	•	[LinkedIn](https://www.linkedin.com/in/mohammed-qalandar-shah-quazi-b59428259/)
  
 
