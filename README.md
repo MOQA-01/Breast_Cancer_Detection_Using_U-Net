@@ -57,8 +57,8 @@ A custom convolution block is implemented for better feature extraction.<br>
 3.	[Download the dataset](https://www.kaggle.com/datasets/moqa01/dataset-busi-with-gt) and place it in the /data directory.
 
 ## Usage<br>
-1.	Open the Jupyter Notebook:
-jupyter notebook Breast_cancer-segmentation.ipynb
+1.	Open the Jupyter Notebook:<br>
+Breast_cancer-segmentation.ipynb
 
 2.	Run the notebook to:<br>
 	•	Load and preprocess the dataset.<br>
