@@ -55,7 +55,7 @@ cd Breast-Cancer-Segmentation
 pip install -r requirements.txt
 
 
-	3.	Download the dataset (link to be added) and place it in the /data directory.
+	3.	[Download the dataset](https://www.kaggle.com/datasets/moqa01/dataset-busi-with-gt) and place it in the /data directory.
 
 Usage
 	1.	Open the Jupyter Notebook:
