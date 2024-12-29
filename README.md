@@ -2,7 +2,7 @@
 
 This project implements a deep learning model based on the U-Net architecture to perform semantic segmentation on breast cancer ultrasound images. The segmentation model identifies benign and malignant tumors in the images, aiding early and accurate diagnosis of breast cancer.
 
-Table of Contents
+Table of Contents<br>
 	•	Project Overview<br>
 	•	Dataset<br>
 	•	Model Architecture<br>
