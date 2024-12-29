@@ -83,6 +83,8 @@ Visualizations:
 	•	Tumor Regions Highlighted in Ultrasound Images
 
 Contributors
-	•	Your Name - Mohammed.Qalandar
+	•	Mohammed Qalandar - Project Lead
+	•	Email: moqa-is@outlook.com
+ 	•	Linked In: [LinkedIn](https://www.linkedin.com/in/mohammed-qalandar-shah-quazi-b59428259/)
+ 
 
-For any questions or contributions, feel free to reach out via [your email/LinkedIn].
