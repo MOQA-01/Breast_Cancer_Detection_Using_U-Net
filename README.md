@@ -25,7 +25,6 @@ Key features:<br>
 Dataset
 
 The dataset includes ultrasound images of breast cancer cases, categorized into:<br>
-[Download_Dataset](https://www.kaggle.com/datasets/moqa01/dataset-busi-with-gt)<br>
 	1.	Benign Tumors<br>
 	2.	Malignant Tumors<br>
 
@@ -49,7 +48,6 @@ Installation<br>
 
 	git clone https://github.com/MOQA-01/Breast-Cancer-Segmentation.git
 	cd Breast-Cancer-Segmentation
-
 
 2.	Install dependencies:
 
