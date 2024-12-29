@@ -47,7 +47,7 @@ A custom convolution block is implemented for better feature extraction.
 Installation
 	1.	Clone the repository:
 
-git clone https://github.com/MOQA-0/Breast-Cancer-Segmentation.git
+git clone https://github.com/MOQA-01/Breast-Cancer-Segmentation.git
 cd Breast-Cancer-Segmentation
 
 
