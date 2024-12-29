@@ -58,22 +58,23 @@ pip install -r requirements.txt
 
 	3.	Download the dataset (link to be added) and place it in the /data directory.
 
-Usage
-	1.	Open the Jupyter Notebook:
+Usage<br>
+1.	Open the Jupyter Notebook:
 
 jupyter notebook Breast_cancer-segmentation.ipynb
 
 
-	2.	Run the notebook to:<br>
+2.	Run the notebook to:<br>
 	•	Load and preprocess the dataset.<br>
 	•	Define and train the U-Net model.<br>
 	•	Visualize predictions on validation/test data.<br>
-	3.	Use the provided .h5 model file for inference:<br>
+ 
+3.	Use the provided .h5 model file for inference:<br>
 
 from keras.models import load_model
 model = load_model('Breast Cancer Segmentation.h5')
 
-Results
+Results<br>
 
 Training Performance:<br>
 	•	Loss Function: Binary cross-entropy.<br>
