@@ -47,16 +47,16 @@ A custom convolution block is implemented for better feature extraction.<br>
 Installation<br>
 	1.	Clone the repository:<br>
 
-git clone https://github.com/MOQA-01/Breast-Cancer-Segmentation.git
-cd Breast-Cancer-Segmentation
+	git clone https://github.com/MOQA-01/Breast-Cancer-Segmentation.git
+	cd Breast-Cancer-Segmentation
 
 
 2.	Install dependencies:
 
-pip install -r requirements.txt
+		pip install -r requirements.txt
 
 
-3.	Download the dataset (link to be added) and place it in the /data directory.
+3.	[Download the dataset](https://www.kaggle.com/datasets/moqa01/dataset-busi-with-gt) and place it in the /data directory.
 
 Usage<br>
 1.	Open the Jupyter Notebook:
@@ -67,8 +67,9 @@ jupyter notebook Breast_cancer-segmentation.ipynb
 	•	Define and train the U-Net model.<br>
 	•	Visualize predictions on validation/test data.<br>
 3.	Use the provided .h5 model file for inference:<br>
-from keras.models import load_model
-model = load_model('Breast Cancer Segmentation.h5')
+
+		from keras.models import load_model
+		model = load_model('Breast Cancer Segmentation.h5')
 
 Results<br>
 
@@ -80,7 +81,7 @@ Visualizations:<br>
 	•	Ground Truth vs Predicted Segmentation Masks<br>
 	•	Tumor Regions Highlighted in Ultrasound Images<br>
 
-Contributors
+Contributors<br>
 	•	Mohammed Qalandar - Project Lead<br>
 	•	[Email](moqa-is@outlook.com)<br>
  	•	[LinkedIn](https://www.linkedin.com/in/mohammed-qalandar-shah-quazi-b59428259/)
