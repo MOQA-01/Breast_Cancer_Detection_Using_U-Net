@@ -25,6 +25,7 @@ Key features:
 Dataset
 
 The dataset includes ultrasound images of breast cancer cases, categorized into:
+[Download_Dataset](https://www.kaggle.com/datasets/moqa01/dataset-busi-with-gt)
 	1.	Benign Tumors
 	2.	Malignant Tumors
 
@@ -46,7 +47,7 @@ A custom convolution block is implemented for better feature extraction.
 Installation
 	1.	Clone the repository:
 
-git clone https://github.com/YourUsername/Breast-Cancer-Segmentation.git
+git clone https://github.com/MOQA-0/Breast-Cancer-Segmentation.git
 cd Breast-Cancer-Segmentation
 
 
@@ -55,7 +56,7 @@ cd Breast-Cancer-Segmentation
 pip install -r requirements.txt
 
 
-	3.	[Download the dataset](https://www.kaggle.com/datasets/moqa01/dataset-busi-with-gt) and place it in the /data directory.
+	3.	Download the dataset (link to be added) and place it in the /data directory.
 
 Usage
 	1.	Open the Jupyter Notebook:
