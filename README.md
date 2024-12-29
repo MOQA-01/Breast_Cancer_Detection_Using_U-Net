@@ -51,12 +51,12 @@ git clone https://github.com/MOQA-01/Breast-Cancer-Segmentation.git
 cd Breast-Cancer-Segmentation
 
 
-	2.	Install dependencies:
+2.	Install dependencies:
 
 pip install -r requirements.txt
 
 
-	3.	Download the dataset (link to be added) and place it in the /data directory.
+3.	Download the dataset (link to be added) and place it in the /data directory.
 
 Usage<br>
 1.	Open the Jupyter Notebook:
