@@ -15,7 +15,7 @@ Project Overview
 
 The primary goal of this project is to create a robust breast cancer segmentation model using U-Net, a convolutional neural network specialized for biomedical image segmentation. The model is trained and validated on ultrasound images, and it predicts segmentation masks for breast cancer tumors.
 
-Key features:
+Key features:<br>
 	•	U-Net Architecture: A well-known model for biomedical image segmentation.<br>
 	•	Image Preprocessing: Images resized to 256x256 for efficient model performance.<br>
 	•	Binary Classification: Differentiates between benign and malignant categories.<br>
@@ -64,28 +64,28 @@ Usage
 jupyter notebook Breast_cancer-segmentation.ipynb
 
 
-	2.	Run the notebook to:
-	•	Load and preprocess the dataset.
-	•	Define and train the U-Net model.
-	•	Visualize predictions on validation/test data.
-	3.	Use the provided .h5 model file for inference:
+	2.	Run the notebook to:<br>
+	•	Load and preprocess the dataset.<br>
+	•	Define and train the U-Net model.<br>
+	•	Visualize predictions on validation/test data.<br>
+	3.	Use the provided .h5 model file for inference:<br>
 
 from keras.models import load_model
 model = load_model('Breast Cancer Segmentation.h5')
 
 Results
 
-Training Performance:
-	•	Loss Function: Binary cross-entropy.
-	•	Evaluation Metric: Accuracy.
+Training Performance:<br>
+	•	Loss Function: Binary cross-entropy.<br>
+	•	Evaluation Metric: Accuracy.<br>
 
-Visualizations:
-	•	Ground Truth vs Predicted Segmentation Masks
-	•	Tumor Regions Highlighted in Ultrasound Images
+Visualizations:<br>
+	•	Ground Truth vs Predicted Segmentation Masks<br>
+	•	Tumor Regions Highlighted in Ultrasound Images<br>
 
 Contributors
-	•	Mohammed Qalandar - Project Lead
-	•	[Email](moqa-is@outlook.com)
+	•	Mohammed Qalandar - Project Lead<br>
+	•	[Email](moqa-is@outlook.com)<br>
  	•	[LinkedIn](https://www.linkedin.com/in/mohammed-qalandar-shah-quazi-b59428259/)
  
 
