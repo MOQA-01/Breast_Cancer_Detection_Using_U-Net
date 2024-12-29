@@ -13,9 +13,9 @@ Table of Contents
 
 ## Project Overview
 
-	The primary goal of this project is to create a robust breast cancer segmentation model using U-Net, a convolutional neural network specialized for biomedical image segmentation. The model is trained and validated on ultrasound images, and it predicts segmentation masks for breast cancer tumors.
+The primary goal of this project is to create a robust breast cancer segmentation model using U-Net, a convolutional neural network specialized for biomedical image segmentation. The model is trained and validated on ultrasound images, and it predicts segmentation masks for breast cancer tumors.
 
-	Key features:<br>
+Key features:<br>
 	•	U-Net Architecture: A well-known model for biomedical image segmentation.<br>
 	•	Image Preprocessing: Images resized to 256x256 for efficient model performance.<br>
 	•	Binary Classification: Differentiates between benign and malignant categories.<br>
@@ -24,19 +24,19 @@ Table of Contents
 
 ## Dataset
 
-	The dataset includes ultrasound images of breast cancer cases, categorized into:<br>
+The dataset includes ultrasound images of breast cancer cases, categorized into:<br>
 	1.	Benign Tumors<br>
 	2.	Malignant Tumors<br>
 
-	Each image is paired with a segmentation mask to highlight the tumor regions.<br>
+Each image is paired with a segmentation mask to highlight the tumor regions.<br>
 
-	Dataset Preprocessing:<br>
+Dataset Preprocessing:<br>
 	•	Resized to 256x256 resolution.<br>
 	•	Visualized using matplotlib to confirm image-mask alignment.<br>
 
 ## Model Architecture<br>
 
-	The U-Net architecture consists of:<br>
+The U-Net architecture consists of:<br>
 	1.	Encoder Path: Captures contextual features using convolutional layers and down-sampling.<br>
 	2.	Bottleneck: Acts as a bridge between the encoder and decoder paths.<br>
 	3.	Decoder Path: Reconstructs the segmentation mask using up-sampling and skip connections.<br>
@@ -44,12 +44,12 @@ Table of Contents
 A custom convolution block is implemented for better feature extraction.<br>
 
 ## Installation<br>
-	1.	Clone the repository:<br>
+1.	Clone the repository:<br>
 
-	git clone https://github.com/MOQA-01/Breast-Cancer-Segmentation.git
-	cd Breast-Cancer-Segmentation
+		git clone https://github.com/MOQA-01/Breast-Cancer-Segmentation.git
+		cd Breast-Cancer-Segmentation
 
-	2.	Install dependencies:
+2.	Install dependencies:
 
 		pip install -r requirements.txt
 
@@ -64,6 +64,7 @@ jupyter notebook Breast_cancer-segmentation.ipynb
 	•	Load and preprocess the dataset.<br>
 	•	Define and train the U-Net model.<br>
 	•	Visualize predictions on validation/test data.<br>
+ 
 3.	Use the provided .h5 model file for inference:<br>
 
 		from keras.models import load_model
@@ -80,8 +81,8 @@ Visualizations:<br>
 	•	Tumor Regions Highlighted in Ultrasound Images<br>
 
 ## Contributors<br>
-	•	Mohammed Qalandar - Project Lead<br>
-	•	[Email](moqa-is@outlook.com)<br>
- 	•	[LinkedIn](https://www.linkedin.com/in/mohammed-qalandar-shah-quazi-b59428259/)
+•	Mohammed Qalandar - Project Lead<br>
+•	[Email](moqa-is@outlook.com)<br>
+•	[LinkedIn](https://www.linkedin.com/in/mohammed-qalandar-shah-quazi-b59428259/)
  
 
