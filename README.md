@@ -11,7 +11,7 @@ Table of Contents
 	•	Results<br>
 	•	Contributors<br>
 
-Project Overview
+##Project Overview
 
 The primary goal of this project is to create a robust breast cancer segmentation model using U-Net, a convolutional neural network specialized for biomedical image segmentation. The model is trained and validated on ultrasound images, and it predicts segmentation masks for breast cancer tumors.
 
@@ -22,7 +22,7 @@ Key features:<br>
 	•	Optimization: Utilizes Adam optimizer with binary cross-entropy loss.<br>
 	•	Performance Evaluation: Includes accuracy as the evaluation metric.<br>
 
-Dataset
+##Dataset
 
 The dataset includes ultrasound images of breast cancer cases, categorized into:<br>
 	1.	Benign Tumors<br>
@@ -34,7 +34,7 @@ Dataset Preprocessing:<br>
 	•	Resized to 256x256 resolution.<br>
 	•	Visualized using matplotlib to confirm image-mask alignment.<br>
 
-Model Architecture<br>
+##Model Architecture<br>
 
 The U-Net architecture consists of:<br>
 	1.	Encoder Path: Captures contextual features using convolutional layers and down-sampling.<br>
@@ -43,7 +43,7 @@ The U-Net architecture consists of:<br>
 
 A custom convolution block is implemented for better feature extraction.<br>
 
-Installation<br>
+##Installation<br>
 	1.	Clone the repository:<br>
 
 	git clone https://github.com/MOQA-01/Breast-Cancer-Segmentation.git
@@ -56,7 +56,7 @@ Installation<br>
 
 3.	[Download the dataset](https://www.kaggle.com/datasets/moqa01/dataset-busi-with-gt) and place it in the /data directory.
 
-Usage<br>
+##Usage<br>
 1.	Open the Jupyter Notebook:
 jupyter notebook Breast_cancer-segmentation.ipynb
 
@@ -69,7 +69,7 @@ jupyter notebook Breast_cancer-segmentation.ipynb
 		from keras.models import load_model
 		model = load_model('Breast Cancer Segmentation.h5')
 
-Results<br>
+##Results<br>
 
 Training Performance:<br>
 	•	Loss Function: Binary cross-entropy.<br>
@@ -79,7 +79,7 @@ Visualizations:<br>
 	•	Ground Truth vs Predicted Segmentation Masks<br>
 	•	Tumor Regions Highlighted in Ultrasound Images<br>
 
-Contributors<br>
+##Contributors<br>
 	•	Mohammed Qalandar - Project Lead<br>
 	•	[Email](moqa-is@outlook.com)<br>
  	•	[LinkedIn](https://www.linkedin.com/in/mohammed-qalandar-shah-quazi-b59428259/)
